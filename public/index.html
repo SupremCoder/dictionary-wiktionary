@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css ">
+
+    <!-- Main Stylesheet Included -->
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/variables.css" />
+    <link rel="stylesheet" href="./assets/css/media.css">
+    <link rel="stylesheet" href="./components/toggle/style.css">
+    <link rel="stylesheet" href="./components/button/style.css">
+    <link rel="stylesheet" href="./components/inputs/style.css">
+    <link rel="stylesheet" href="./components/custom dropdown/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <div class="header_logo"><img src="./assets/images/logo.png" alt=""></div>
+            <div class="header_menu">
+                <div class="select-menu">
+                    <div class="select-btn">
+                        <span class="sBtn-text">Inter</span>
+                        <i class="fa fa-angle-down"></i>
+                    </div>
+                    <ul class="options">
+                        <div class="fonts">
+                            <li class="option">
+                                <span class="option-text">Loba</span>
+                            </li>
+                            <li class="option">
+                                <span class="option-text">Inconsolata</span>
+                            </li>
+                            <li class="option">
+                                <span class="option-text">Inter</span>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="divider"></div>
+                <div class="header_toggle">
+                    <div class="switcher mode">
+                        <div class="toggle" onclick="toggler()">
+                            <span class="circle"></span>
+                        </div>
+                        <i class="fa fa-moon-o fa-lg" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search_section">
+            <div class="search_normal search_inputs">
+                <label for="normal"> <i class="fa fa-search" aria-hidden="true"></i></label>
+                <input type="text" class="search_field normal title-sm" placeholder="Search for any word…" id="normal">
+            </div>
+        </div>
+        <div class="section">
+            <div class="section_head">
+                <div class="head_word">
+                    <div class="word_title title-lg"></div>
+                    <div class="word_spelling title-m"></div>
+                </div>
+                <div class="pronunciation_btn">
+                    <!-- <button id="play_button">
+                        <i class="fa fa-play fa-2x" aria-hidden="true"></i>
+                    </button> -->
+                </div>
+            </div>
+            <div class="section_body">
+                <div class="definition">
+                    <div class="word_type">
+                        <div class="word_type_title title-m "></div>
+                        <!-- <span class="horizontal_divider"></span> -->
+                    </div>
+                    <div class="word_definitions">
+                        <div class="word_meaning_title title-sm">
+                        </div>
+                        <ul></ul>
+                    </div>
+                    <!-- <div class="word_synonyms">
+                        <div class="synonyms_title title-sm">Synonyms</div>
+                        <div class="synonym_words">
+                            <a href="#" class="title-sm">electronic keyboard</a>
+                        </div>
+                    </div> -->
+                </div>
+                <!-- <div class="definition">
+                    <div class="word_type">
+                        <div class="word_type_title title-m ">verb</div>
+                        <span class="horizontal_divider"></span>
+                    </div>
+                    <div class="word_definitions">
+                        <div class="word_meaning_title title-sm">
+                            Meaning
+                        </div>
+                        <ul>
+                            <li>To type on a computer keyboard.</li>
+                            <span>“Keyboarding is the part of this job I hate the most.”</span>
+                        </ul>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <!-- <div class="footer">
+            <div class="full_divider"></div>
+        </div> -->
+
+
+    </div>
+
+    <!-- 
+    <h1>Dictionary</h1>
+    <form>
+        <input type="text" placeholder="Enter a word">
+        <button type="submit">Search</button>
+    </form>
+    <div id="definitions-output"></div>
+    <div id="audio-container"></div> -->
+
+
+
+
+    <script src="./components/toggle/script.js"></script>
+    <script src="./components/custom dropdown/script.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

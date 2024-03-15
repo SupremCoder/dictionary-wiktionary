@@ -1,0 +1,187 @@
+@charset "utf-8";
+@import './fonts.css';
+@import './style.css';
+
+/**** CSS Variables ****/
+
+/** use variables in css property like, background-color: var(--primary-color); */
+
+/* -=- Common Element CSS Start -=- */
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* ::-moz-selection {
+    background: var(--text-selection-color);
+    text-shadow: none;
+}
+
+::selection {
+    background: var(--text-selection-color);
+    text-shadow: none;
+} */
+
+html,
+body {
+    padding: 0px;
+    font-size: 16px;
+    /* line-height: 20px; */
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f0f3f7;
+}
+
+body.block {
+    overflow-y: hidden;
+}
+
+img {
+    border: 0px !important;
+    outline: none;
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+ul,
+ol {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover,
+a:focus,
+a:active,
+a:visited {
+    outline: none;
+    text-decoration: none;
+}
+
+.btn:focus,
+.btn.focus,
+.form-control:hover,
+.form-control:focus,
+.form-control:focus:active {
+    outline: none !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+p {
+    margin: 0px;
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--text-primary-color);
+    font-weight: normal;
+}
+
+hr {
+    margin: 1em 0;
+    padding: 0;
+    display: block;
+    border: 0;
+    border-top: 1px solid var(--border-color);
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+input::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--text-secondary-color);
+    opacity: 1;
+}
+
+input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: var(--text-secondary-color);
+}
+
+input::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: var(--text-secondary-color);
+}
+
+textarea::placeholder {
+    color: var(--text-secondary-color);
+    opacity: 1;
+}
+
+textarea:-ms-input-placeholder {
+    color: var(--text-secondary-color);
+}
+
+textarea::-ms-input-placeholder {
+    color: var(--text-secondary-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+p,
+a {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Common Class CSS related to text alignment*/
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}

@@ -1,0 +1,24 @@
+button {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #CDCDCD;
+    border: 0;
+}
+
+button i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--violet);
+    padding: 25px;
+    transition: 0.7s;
+}
+
+button:hover {
+    background-color: var(--violet);
+}
+
+i:hover {
+    color: #CDCDCD;
+}

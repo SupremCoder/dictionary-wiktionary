@@ -1,0 +1,157 @@
+body {
+    background-color: #fff;
+    display: flex;
+    font-family: 'Inconsolata';
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    max-width: 740px;
+    width: 740px;
+    margin: 58px auto 0;
+    /* border: 1px solid black; */
+    /* position: fixed; */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.header_menu {
+    display: flex;
+    height: 36.5px;
+    align-items: center;
+    gap: 26px;
+    position: relative;
+}
+
+.divider {
+    width: 1px;
+    height: 32px;
+    background-color: #E9E9E9;
+}
+
+.select-menu {
+    /* position: absolute; */
+
+}
+
+.options {
+    z-index: 1;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section_head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search_section {
+    margin-top: 51px;
+    margin-bottom: 45px;
+}
+
+.word_spelling,
+.synonym_words a {
+    color: var(--violet);
+}
+
+.word_type {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 40px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.word_title,
+.word_type_title {
+    font-weight: 700;
+}
+
+.horizontal_divider {
+    width: 656px;
+    height: 1px;
+    background-color: #E9E9E9;
+}
+
+.word_definitions {
+    margin-top: 40px;
+}
+
+.word_definitions ul {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.word_definitions li::marker {
+    color: var(--violet);
+}
+
+.word_meaning_title,
+.synonyms_title {
+    color: var(--gray);
+}
+
+.word_synonyms {
+    margin-top: 64px;
+}
+
+.word_definitions li {
+    margin-left: 22px;
+    list-style-type: initial;
+}
+
+.word_synonyms {
+    display: flex;
+    gap: 22px;
+}
+
+.synonym_words a:hover {
+    text-decoration: underline;
+}
+
+.full_divider {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    height: 1px;
+    width: 100%;
+    background-color: #979797;
+}
+
+.not_found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.sad_emoji {
+    font-size: 64px;
+    margin-bottom: 20px;
+    margin-top: 132px;
+}
+
+.not_found_title {
+    font-weight: 700;
+}
+
+.not_found_text {
+    text-align: center;
+}

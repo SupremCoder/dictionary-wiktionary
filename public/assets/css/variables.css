@@ -1,0 +1,49 @@
+:root {
+    --black-05: #050505;
+    --black-1f: #1F1F1F;
+    --black-2d: #2D2D2D;
+    --black-3a: #3A3A3A;
+    --gray: #757575;
+    --white-e9: #E9E9E9;
+    --white-f4: #F4F4F4;
+    --white: #fff;
+    --violet: #A445ED;
+    --red: #FF5252;
+}
+
+/* typography */
+.title-lg {
+    font-size: 64px;
+}
+
+.title-lg-line {
+    font-size: 77px;
+}
+
+.title-m {
+    font-size: 24px;
+}
+
+.title-m-line {
+    font-size: 29px;
+}
+
+.title-sm {
+    font-size: 20px;
+}
+
+.title-sm-line {
+    font-size: 24px;
+}
+
+.title-lg-body {
+    font-size: 18px;
+}
+
+.title-sm-body {
+    font-size: 14px;
+}
+
+.title-sm-body-line {
+    font-size: 17px;
+}

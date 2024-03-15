@@ -1,0 +1,31 @@
+.switcher {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.toggle {
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: var(--gray);
+    padding: 3px;
+    cursor: pointer;
+}
+
+.circle {
+    /* display: inline-block; */
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: 0.4s ease;
+    /* transform: translateX(-0px); */
+}
+
+.circle.on {
+    transform: translateX(20px);
+    transition: 0.4s ease;
+}
